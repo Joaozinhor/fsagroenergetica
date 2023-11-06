@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Agro-Energética S. A.</title>
+    <link rel="stylesheet" type="text/css" href="/curriculo.css">
+    <link rel="icon" type="imagem/png" href="/logo.png">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="/"><img  align="right" class="logoimg" src="/logo.png"></a>
+        </div>
+        <div align="center" class="bpesquisadiv">
+            <input class="bpesquisa" type="text" placeholder= "Pesquisa">
+        </div>
+        <div align="left" class="redessociais">
+            <a class="sobrenos">Currículo</a>
+            <a href="https://br.linkedin.com/company/fatima-do-sul-agro-energetica-s-a---alcool-e-acucar" target="_blank" ><img class="linkedin" src="/linkedin.png"></a>
+        </div>
+    </div>
+    <div class="corpo">
+        <span class="titulo1">Insira nos campos abaixo, seus dados </span>
+        <span class="titulo1">pessoais e profissionais de currículo.</span>
+        <span class="titulo2">Dados Pessoais</span>
+        <form action="/curriculo" method="post">
+        <div class="infos">
+            <span class="infos1">Nome completo:</span>
+            <input class="infos2" type="text" id="nome" name="nome" autocomplete="off">
+        </div>
+        <div class="infos">
+            <span class="infos1">E-mail:</span>
+            <input class="infos2" type="text" id="email" name="email" autocomplete="off">
+        </div>
+        <div class="infos">
+            <span class="infos1">Idade:</span>
+            <input class="infos2" type="text" id="idade" name="idade" autocomplete="off">
+        </div>
+        <div class="infos">
+            <span class="infos1">Endereço:</span>
+            <input class="infos2" type="text" id="endereco" name="endereco" autocomplete="off">
+        </div>
+        <div class="infos">
+            <span class="infos1">Celular:</span>
+            <input class="infos2" type="text" id="celular" name="celular" autocomplete="off">
+        </div>
+        <div class="infos">
+            <span class="infos1">Nacionalidade:</span>
+            <input class="infos2" type="text" id="nacionalidade" name="nacionalidade" autocomplete="off">
+        </div>
+        <div class="infos">
+            <span class="infos1">Estado civil:</span>
+            <input class="infos2" type="text" id="estadocivil" name="estadocivil" autocomplete="off">
+        </div>
+        <span class="titulo2">Dados Profissionais</span>
+        <div class="infos">
+            <span class="infos1">Cargo ou Área de interesse:</span>
+            <textarea class="infos3" id="cargoareadeinteresse" name="cargoareadeinteresse"></textarea>
+        </div>
+        <div class="infos">
+            <span class="infos1">Experiências profissionais:</span>
+            <textarea class="infos3" id="experiencias" name="experiencias"></textarea>
+        </div>
+        <div class="infos">
+            <span class="infos1">Formação acadêmica e/ou cursos:</span>
+            <textarea class="infos3" id="formacao" name="formacao"></textarea>
+        </div>
+        <span class="titulo3">Anexe no campo abaixo seu currículo</span>
+        <span class="titulo4" >no formato PDF ou WORD:</span>
+
+        <div class="arquivodiv">
+            <label class="arquivo1" for="arquivo">Enviar arquivo</label>
+            <input name="arqcurriculo" id="arqcurriculo" type="file">
+        </div>
+    </div>
+    <input type="submit" value="Inserir Dados" class="botao">
+    </form>
+    <div class="footer">
+        <div class="logo2"><img align="right" class="logoimg2" src="/logo.png"></div>
+        <div class="descricao">
+            <span class="descricao1">Fatima Do Sul Agro-Energética S/A - Álcool E Açúcar <br>Rod. Otr Linha Do Barreirinho, Lotes 02,03,04 Quadra 43 <br>Fátima Do Sul - MS</span>
+            <span class="descricao1">67 3467 6030 <br>67 3467 6031 <br>suporte@fsagroenergetica.com.br</span>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="/js/app.js"></script>
+</body>
+</html>

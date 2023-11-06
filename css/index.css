@@ -1,0 +1,338 @@
+@import url("..\css\fonts.css");
+
+body{
+    margin: 0;
+    background-image: url("../bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 1650px;
+    background-position-y: -400px;
+    background-position-x: 150px;
+    margin-bottom: 50px;   
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #BCC8A2;
+    border-radius: 20px;
+    border: 3px solid white;
+  }
+
+.header{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    border-bottom: #f1f1f1 2px solid;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.logo{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.logoimg{
+    padding-top: 13px;
+    width: 210px;
+    height: 80%;
+}
+
+.logoimg2{
+    padding-top: 13px;
+    width: 210px;
+    height: 80%;
+}
+
+.redessociais{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.sobrenos{
+    font-family: inter;
+    font-size: 17px;
+    font-weight: 1000;
+    margin-left: 50px;
+    color: #B6B6B6;
+    text-decoration: none;
+}
+
+.linkedin{
+    width: 20px;
+    height: 20px;
+    margin-top: 19%;
+    padding-left: 30px;
+}
+
+.bpesquisadiv{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.bpesquisa{
+    background-color: #EAEAEA;
+    margin-top: 7%;
+    border-radius: 70px;
+    border-width: 2px;
+    border-color: rgb(216, 216, 216);
+    height: 40px;
+    width: 400px;
+    color: #868686;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 28px;
+    padding-right: 28px;
+    outline: 0;
+}
+
+.bpesquisa:focus{
+    border: 1px solid #757575;
+}
+
+
+.titulo1{
+    color: #5f7d1b;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 210px;
+    display: flex;
+    text-align: center;
+}
+
+.texto1{
+    color: #b4dc5c;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+}
+
+.titulo2{
+    color: #5f7d1b;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 310px;
+    display: flex;
+    text-align: center;
+}
+
+.texto2{
+    color: #b4dc5c;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+}
+
+.texto3{
+    color: #b4dc5c;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 180px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+}
+
+.caixatexto{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.caixatexto2{
+    width: 50%;
+    height: 1100px;
+}
+
+.containerimg{
+    max-width: 400px;
+    margin-left: 200px;
+    margin-top: 40px;
+    float: left;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.footer{
+    width: 100%;
+    height: 120px;    
+    background-color: white;
+    border-top: #f1f1f1 2px solid;
+    margin-top: 150px;
+    float: left;
+}
+
+.logo2{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.descricao{
+    float: left;
+    height: 100%;
+    width: 75%;
+}
+
+.descricao1{
+    color: #8A8A8A;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 70px;
+    float: left;
+    padding-top: 35px;
+}
+
+@media (max-width: 500px) {
+    body{
+        background-size: 0px;
+        background-position-y: -400px;
+        background-position-x: -250px;
+    }
+    .header{
+        width: 100%;
+    }
+    .logoimg{
+        margin-top: 12px;
+        width: 150px;
+        height: 75px;
+    }
+    .logo{
+        width: 40%;
+    }
+    .bpesquisadiv{
+        width: 60%;
+    }
+    .bpesquisa{
+        width: 150px;
+        margin-left: 0px;
+        margin-top: 40px;
+        font-size: 13px;
+    }
+    .redessociais{
+        width: 51%;
+        height: 25px;
+        display: inline;
+        padding-left: 190px;
+        margin-top: 20px;
+    }
+    .linkedin{
+        height: 20px;
+        width: 20px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 10px;
+    }
+    .img{
+        max-width: 300px;
+    }
+    .containerimg{
+        margin: 0px;
+        margin-left: 65px;
+        margin-right: 65px;
+        margin-top: 70px;
+    }
+    .titulo1{
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 0px;
+    }
+    .caixatexto{
+        height: 600px;
+        width: 100%;
+    }
+    .caixatexto2{
+        height: 720px;
+        width: 100%;
+        float: left;
+    }
+    .texto1{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .titulo2{
+        margin-left: 80px;
+        margin-right: 80px;
+        padding: 0px;
+        padding-top: 50px;
+    }
+    .texto2{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .texto3{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .footer{
+        height: 380px;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .logo2{
+        height: 100px;
+        width: 100%;
+        margin: 0px;
+    }
+    .logoimg2{
+        margin-top: 12px;
+        width: 150px;
+        height: 75px;
+        margin-right: 110px;
+        margin-left: 110px;
+    }
+    .descricao{
+        height: 280px;
+        width: 100%;
+    }
+    .descricao1{
+        padding-left: 100px;
+        margin-right: 50px;
+    }
+}
