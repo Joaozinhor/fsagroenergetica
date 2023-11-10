@@ -14,3 +14,7 @@ function showSlides() {
     setTimeout(showSlides, 5000);
 }
 
+
+function alert(){
+    alert("Dados inseridos com sucesso!");
+}
