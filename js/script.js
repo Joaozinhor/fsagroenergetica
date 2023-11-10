@@ -16,5 +16,5 @@ function showSlides() {
 
 
 function alert(){
-    alert('Dados inseridos com sucesso!');
+    alert("Dados inseridos com sucesso!");
 }
