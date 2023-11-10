@@ -227,6 +227,23 @@ body::-webkit-scrollbar {
     padding-top: 35px;
 }
 
+@media (max-width: 1220px){
+    .containerimg{
+        margin-left: 100px;
+    }
+    .titulo2{
+        padding-top: 100px;
+        padding-left: 290px;
+    }
+    .footer{
+        margin-top: 400px;
+        height: 200px;
+    }
+    .logoimg2{
+        height: auto;
+    }
+}
+
 @media (max-width: 500px) {
     body{
         background-size: 0px;
